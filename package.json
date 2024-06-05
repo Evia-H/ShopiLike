@@ -1,0 +1,30 @@
+{
+  "name": "shopilike",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ShopiLike app",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evia-H/ShopiLike.git"
+  },
+  "author": "Eviatar Hasid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evia-H/ShopiLike/issues"
+  },
+  "homepage": "https://github.com/Evia-H/ShopiLike#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.1",
+    "typescript": "^5.4.5"
+  }
+}
